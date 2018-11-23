@@ -9,7 +9,7 @@ import org.glassfish.tyrus.client.ClientManager;
 
 public class Client {
 
-    public static final String SERVER = "ws://localhost:8025/ws/chat";
+    public static final String SERVER = "ws://localhost:8887/ws/chat";
 
     public static void main(String[] args) throws Exception {
         ClientManager client = ClientManager.createClient();
